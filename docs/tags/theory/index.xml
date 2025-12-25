@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theory on </title>
-    <link>https://nguyentrinhminhhuy.github.io/tags/theory/</link>
+    <link>http://localhost:1313/tags/theory/</link>
     <description>Recent content in Theory on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nguyentrinhminhhuy.github.io/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bài 2: Port là gì? Tại sao Server hay dùng cổng 8080?</title>
-      <link>https://nguyentrinhminhhuy.github.io/posts/bai-viet-2/</link>
+      <link>http://localhost:1313/posts/bai-viet-2/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyentrinhminhhuy.github.io/posts/bai-viet-2/</guid>
+      <guid>http://localhost:1313/posts/bai-viet-2/</guid>
       <description>Hiểu về khái niệm Port (Cổng) để tránh xung đột khi chạy phần mềm.</description>
     </item>
     <item>
       <title>Bài 6: Phân biệt Blocking IO và Non-Blocking IO</title>
-      <link>https://nguyentrinhminhhuy.github.io/posts/bai-viet-6/</link>
+      <link>http://localhost:1313/posts/bai-viet-6/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyentrinhminhhuy.github.io/posts/bai-viet-6/</guid>
+      <guid>http://localhost:1313/posts/bai-viet-6/</guid>
       <description>Khái niệm quan trọng để tối ưu hiệu năng Server.</description>
     </item>
   </channel>
