@@ -1,7 +1,4 @@
 baseURL = "https://nguyentrinhminhhuy.github.io/"
-languageCode = "vi-vn"
-title = "Nguyễn Trịnh Minh Huy"
-theme = "PaperMod"
 publishDir = "docs"
 
 [params]
