@@ -21,7 +21,7 @@
 
             <li>
                 <a href="{{ "posts/" | absURL }}"
-                   class="{{ if (eq .Section "posts") }}active{{ end }}">
+                   class="{{ if eq .Section "posts" }}active{{ end }}">
                    BLOG
                 </a>
             </li>
@@ -35,3 +35,51 @@
         </ul>
     </nav>
 </header>
+
+<style>
+.luxury-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #eee;
+}
+
+.luxury-nav {
+    max-width: 1400px;
+    margin: auto;
+    padding: 18px 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.luxury-logo a {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #202124;
+}
+
+.luxury-menu {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+}
+
+.luxury-menu a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #5f6368;
+    position: relative;
+}
+
+.luxury-menu a.active,
+.luxury-menu a:hover {
+    color: #1a73e8;
+}
+</style>
