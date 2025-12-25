@@ -58,7 +58,7 @@ publishDir = "docs"
 
 # --- FIX CSS GITHUB PAGES ---
 canonifyURLs = true
-relativeURLs = true
+relativeURLs = false
 
 # --- BUILD ---
 [build]
